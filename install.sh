@@ -7,8 +7,8 @@ apt-get install unzip -y
 sleep 2
 echo "Settings it up"
 unzip pterodactyl.zip
+cp * /root
 cp -r * /var/www/pterodactyl
-cd
 cd /var/www/pterodactyl
 sleep 2
 echo "Building the panel"
