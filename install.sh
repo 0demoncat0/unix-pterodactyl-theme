@@ -1,10 +1,6 @@
 echo "Setting all up"
 apt-get update && apt-get upgrade -y
 sleep 2
-echo "Giving permissions"
-chmod 777 pterodactyl.zip
-chmod 777 install.sh
-sleep 2
 echo "Installing tools..."
 apt update
 apt-get install unzip -y
