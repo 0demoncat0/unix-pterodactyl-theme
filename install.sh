@@ -5,7 +5,6 @@ echo "Installing tools..."
 apt update
 apt-get install unzip -y
 echo "Settings it up"
-unzip pterodactyl.zip
 mv * /root
 cd
 mv * /var/www/pterodactyl
