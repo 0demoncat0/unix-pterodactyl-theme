@@ -8,7 +8,7 @@ echo "Settings it up"
 unzip pterodactyl.zip
 mv * /root
 cd
-mv -r * /var/www/pterodactyl
+mv * /var/www/pterodactyl
 cd /var/www/pterodactyl
 unzip -r pterodactyl.zip
 echo "Building the panel"
