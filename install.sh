@@ -10,6 +10,7 @@ mv * /root
 cd
 mv -r * /var/www/pterodactyl
 cd /var/www/pterodactyl
+unzip -r pterodactyl.zip
 echo "Building the panel"
 php artisan migrate --path=/database/migrations/2021_05_30_141248_create_unix_settings_table.php
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
